@@ -137,7 +137,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
+/******/ 	__webpack_require__.p = "./";
 /******/
 /******/ 	var jsonpArray = window["webpackJsonp"] = window["webpackJsonp"] || [];
 /******/ 	var oldJsonpFunction = jsonpArray.push.bind(jsonpArray);
@@ -231,7 +231,7 @@ function tmpl($api, $cmp, $slotset, $ctx) {
     key: 4
   }, [api_element("img", {
     attrs: {
-      "src": "/resources/lwc.png"
+      "src": "./resources/lwc.png"
     },
     key: 5
   }, [])]), api_element("div", {
@@ -478,8 +478,8 @@ Object(lwc__WEBPACK_IMPORTED_MODULE_0__["registerDecorators"])(Greeting, {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\alexm\Documents\VSCode\LWC\test\test\node_modules\error-overlay-webpack-plugin\lib\entry-basic.js */"./node_modules/error-overlay-webpack-plugin/lib/entry-basic.js");
-module.exports = __webpack_require__(/*! C:\Users\alexm\Documents\VSCode\LWC\test\test\src\index.js */"./src/index.js");
+__webpack_require__(/*! C:\Users\alexm\Documents\VSCode\LWC\test-app\node_modules\error-overlay-webpack-plugin\lib\entry-basic.js */"./node_modules/error-overlay-webpack-plugin/lib/entry-basic.js");
+module.exports = __webpack_require__(/*! C:\Users\alexm\Documents\VSCode\LWC\test-app\src\index.js */"./src/index.js");
 
 
 /***/ })
